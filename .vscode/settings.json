@@ -1,0 +1,5 @@
+{
+    "deepscan.enable": true,
+    "appService.defaultWebAppToDeploy": "/subscriptions/1ceaf434-2986-4ab6-86c7-20fa012fef90/AppServices/subscriptions/1ceaf434-2986-4ab6-86c7-20fa012fef90/resourceGroups/appsvc_linux_centralus/providers/Microsoft.Web/sites/maheshpythonwebapp",
+    "appService.deploySubpath": "."
+}
