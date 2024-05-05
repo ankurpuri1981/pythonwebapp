@@ -22,7 +22,10 @@ def welcome():
 
 @app.route('/ping')
 def ping():
-    return {'msg': 'pong!'}
+    a = 10
+    b = 15
+    c = a + b
+    return str(c)
 
 
 @app.route('/debug', methods=['GET'])
@@ -51,5 +54,5 @@ def not_found(e):
 
 
 if __name__ == '__main__':
-    port = os.environ.get('PORT', 5001)
+    port = os.environ.get('PORT', 80)
     app.run(debug=True, host='0.0.0.0', port=port)
